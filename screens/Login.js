@@ -1,10 +1,15 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 
-export default function Login() {
+export default function Login({ navigation }) {
   return (
     <View>
       <Text>Login</Text>
+      <TouchableOpacity onPress={() => navigation.navigate("CreateAccount")}>
+        <View>
+          <Text>go to Create Account</Text>
+        </View>
+      </TouchableOpacity>
     </View>
   );
 }
