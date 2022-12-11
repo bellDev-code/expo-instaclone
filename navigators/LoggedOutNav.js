@@ -16,7 +16,9 @@ export default function LoggedOutNav() {
     >
       <Stack.Screen
         name="Welcome"
-        options={{ title: "Welcome to long~" }}
+        options={{
+          headerShown: false,
+        }}
         component={Welcome}
       />
       <Stack.Screen name="Login" component={Login} />
