@@ -2,7 +2,7 @@ import React from "react";
 import { TouchableOpacity } from "react-native";
 import styled from "styled-components/native";
 import { colors } from "../color";
-import AuthLayout from "../components/Auth/AuthLayout";
+import AuthLayout from "../components/auth/AuthLayout";
 import AuthButton from "../components/auth/AuthButton";
 
 const LoginLink = styled.Text`
